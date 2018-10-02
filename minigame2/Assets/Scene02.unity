@@ -970,6 +970,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669906}
+  - component: {fileID: 534669907}
   - component: {fileID: 534669903}
   m_Layer: 0
   m_Name: Main Camera
@@ -1052,6 +1053,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 67394360}
   offset: {x: 0, y: 1, z: -5}
+--- !u!114 &534669907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf27e9bf71614482db2028f67af8dd8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNum: 1
 --- !u!1001 &541027333
 Prefab:
   m_ObjectHideFlags: 0
